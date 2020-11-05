@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
+</style>
+
+body{
+    overflow-x: hidden;
+    font-family:  'BenchNine', sans-serif;
+    color: #36362a;
+}
+
+/*-----------------NAVIGATION-----------------*/
+
+.navbutton {
+    color: #36362a;
+    font-family: 'BenchNine', sans-serif;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.nav-link {
+    color: #36362a;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2x;
+    word-spacing: 10px;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+/*-----------------CAPTION-----------------*/
+
+.col-4 {
+     background-color: #fafafa;
+     margin-top: 20%;
+     margin-left: 5%;
+     text-align: center;
+     opacity: 0.3;
+     border-radius: 5%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     word-spacing: 5px;
+     color: #000000;
+ }
+
+.caption {
+    font-family: 'BenchNine', sans-serif, bold;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.font1 {
+    font-family: 'BenchNine', sans-serif, bold;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+}
+
+.font2 {
+    font-family: 'BenchNine', sans-serif, bold;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0px;
+}
+.btn {
+    margin: 0px;
+    color: #000000;
+}
+
+
+/*-----------------FOOTER-----------------*/
+
+.social-menu ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transform: translate(-50%, -50%)
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fa {
+    font-size: 40px;
+    line-height: 70px;
+    transition: .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------MEDIA QUERIES-----------------*/
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 767.98px) {    
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {   
+}
+
+@media (min-width: 992px) {  
+}
+
+@media (min-width: 1200px) {  
+}
+
+/*-----------------BACKGROUND IMAGE-----------------*/
+
+
