@@ -28,113 +28,82 @@ body{
 /*-----------------CAPTION-----------------*/
 
 .col-4 {
-     background-color: #fafafa;
+     background-color: transparent;
      margin-top: 20%;
      margin-left: 5%;
-     text-align: center;
-     opacity: 0.3;
-     border-radius: 5%;
-     padding-top: 5px;
-     padding-bottom: 5px;
-     word-spacing: 5px;
-     color: #000000;
  }
 
 .caption {
-    font-family: 'BenchNine', sans-serif, bold;
+    font-family:font-family: 'BenchNine', sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: #000000;
+    text-align: center;
+    word-spacing: 5px;
 }
 .font1 {
-    font-family: 'BenchNine', sans-serif, bold;
-    font-size: 50px;
-    font-weight: 700;
-    color: #000000;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color:#36362a;
     margin: 0px;
 }
 
 .font2 {
-    font-family: 'BenchNine', sans-serif, bold;
-    font-size: 30px;
-    font-weight: 600;
-    color: #000000;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #4b4404;
+    padding: 0;
+    margin: 0;
+}
+
+.font3 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color:#36362a;
     margin: 0px;
 }
-.btn {
-    margin: 0px;
-    color: #000000;
-}
+
 
 
 /*-----------------FOOTER-----------------*/
 
 .social-menu ul {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 83%;
     padding: 0;
     margin: 0;
     display: flex;
     transform: translate(-50%, -50%)
-}
 
+}
 .social-menu ul li {
     list-style: none;
     margin: 0 15px;
 }
 
 .social-menu ul li .fa {
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 20px;
+    line-height: 60px;
     transition: .6s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----------------MEDIA QUERIES-----------------*/
-
-@media (max-width: 1199.98px) {
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #000000;
+    text-align: center;
+    transition: .6s;
+    opacity: 0.8;
+    color: #fdba00;
 }
 
-@media (max-width: 767.98px) {    
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
 }
-
-@media (min-width: 576px) {
-}
-
-@media (min-width: 768px) {   
-}
-
-@media (min-width: 992px) {  
-}
-
-@media (min-width: 1200px) {  
-}
-
-/*-----------------BACKGROUND IMAGE-----------------*/
-
-
