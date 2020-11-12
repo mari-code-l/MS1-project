@@ -141,7 +141,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("hero.jpg");
     background-size: cover;
 }
 
@@ -192,6 +191,7 @@ body{
     align-items: center;
     border-radius: 50%;
     font-size: 20px;
+    opacity: 0.8;
 }
 
 .container .contactInfo .box .text {
