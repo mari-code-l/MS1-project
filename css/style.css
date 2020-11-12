@@ -15,21 +15,18 @@ body{
 
 /*-----------------NAVIGATION-----------------*/
 
-.navbar {
-    opacity: 0.8;
-}
+
 
 .navbar .logo {
-    color: #000000;
-    font-weight: 700;
-    font-size: 32px;
+    background: #faf9f9;
     font-family: 'Oswald', sans-serif; 
-    letter-spacing: 5px;
-    opacity: 0.8;
+    letter-spacing: 4px;
+    font-size: 30px;
 }
 
 .navbar .logo i {
-    color: #001055;
+    color: #4d4d4d;
+    font-weight: 700;
 }
 
 .navbutton {
@@ -107,7 +104,7 @@ body{
     margin: 0 15px;
 }
 
-.social-menu ul li .fa {
+.social-menu ul li .fab {
     font-size: 20px;
     line-height: 60px;
     transition: .6s;
@@ -144,7 +141,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(MS1-project/images/hero.jpg);
+    background: url("hero.jpg");
     background-size: cover;
 }
 
@@ -158,6 +155,7 @@ body{
     font-weight: 500;
     color: #000000;
     font-family: 'Oswald', sans-serif; 
+    opacity: 0.8;
 }
 
 .contact .content p {
@@ -165,6 +163,51 @@ body{
     color: #000000;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #000000;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+    font-weight: 400;
+    color: #1b7cd8;
+    font-size: 22px;
+}
 /*-----------------MEDIA QUERIES-----------------*/
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
