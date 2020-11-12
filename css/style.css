@@ -47,6 +47,9 @@ body{
 }
 /*-----------------CAPTION-----------------*/
 
+.image-item {
+    background-size: cover;
+}
 .landing {
     background-color: transparent;
     margin-top: 23%;
