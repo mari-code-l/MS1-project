@@ -130,7 +130,6 @@ body{
 /*-----------------ABOUT ME-----------------*/
 
 
-
 /*-----------------CONTACT-----------------*/
 
 .contact {
@@ -208,7 +207,7 @@ body{
 .container .contactInfo .box .text h3 {
     font-weight: 500;
     color: #fafafa;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -228,13 +227,17 @@ body{
 .contactForm .inputBox {
     position: relative;
     width: 100%;
-    margin-top: 0px;
 }
 
-
+.contactForm .submit {
+    margin-top: 10px;  
+    margin-left: 40%;
+    color: #fafafa;
+}
 .contactForm .inputBox input {
     width: 100%;
     padding: 5px;
+    letter-spacing: 2px;
     font-size: 18px;
     margin: 5px 0;
     border: none;
@@ -254,6 +257,12 @@ body{
     resize: none;
 }
 
+.contactForm .inputBox span {
+    color: #fafafa;
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+
 /*-----------------MEDIA QUERIES-----------------*/
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -269,5 +278,24 @@ body{
  }
  
 @media all and (max-width: 480px) {
-    padding: 0 50px;
+    .landing {
+        align-content: center;
+        text-align: center;
+        margin; 20px 0;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .container { 
+        flex-direction: column;
+    }
+    .container .contactInfo .contactForm {
+        width: 100%
+    }
+
+    .social-menu ul li {
+        align-content: center; 
+        width: 100%;
+    }
+
  }
