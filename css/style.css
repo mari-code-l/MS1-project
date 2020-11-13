@@ -8,7 +8,6 @@ body{
     font-family: 'Oswald', sans-serif; 
 }
 
-/*-----------------BACKGROUND IMAGE-----------------*/
 
 
 
@@ -125,13 +124,44 @@ body{
 }
 
 /*-----------------ABOUT ME-----------------*/
+ .content {
+     margin-top: 80px;
+ }
+.content .box .aboutme {
+    position: relative;
+    min-height: 789px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+}
+
+.content .box .aboutme .title {  
+    background: #000000;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.content .box .aboutme .title h2 {
+    text-align: center;
+    color: #fafafa;
+    padding: 10px;
+}
+
+.content .box .aboutme .title ul{
+    color: #fafafa;
+}
+
 
 
 /*-----------------CONTACT-----------------*/
 
 .contact {
     position: relative;
-    min-height: 100vh;
+    min-height: 789px;
     padding: 50px 100px;
     display: flex;
     justify-content: center;
