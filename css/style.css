@@ -5,7 +5,9 @@
 body{
     margin: 0;
     font-family: 'BenchNine', sans-serif;
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    background-image: url("portfolio.jpg");
+    background-repeat: repeat-y;
 }
 
 
@@ -45,20 +47,30 @@ body{
 }
 /*-----------------CAPTION-----------------*/
 
-.landingpage .container1 .row {
+.content .landingpage .container1 {
+    position: relative;
+    min-height: 789px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.content .landingpage .container1 .row {
     margin-left: 10%;
     margin-top: 20%;
 }
-.landingpage .container1 .row .landing {
+
+.content .landingpage .container1 .row .landing {
     background-color: transparent;
  }
 
- .landingpage .container1 .row .landing .caption {
+.content .landingpage .container1 .row .landing .caption {
      letter-spacing: 1px;
      padding-bottom: 3px;
  }
 
-.landing .caption a {
+.content .landing .caption a {
     margin-top: 20px;
 }
 
@@ -79,48 +91,6 @@ body{
     font-size: 32px;
     font-weight: 400;
     color:#000000;
-}
-
-
-/*-----------------FOOTER-----------------*/
-
-
-.social-menu ul {
-    position: absolute;
-    left: 85%;
-    top: 85%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    transform: translate(-50%, -50%)
-
-}
-.social-menu ul li {
-    list-style: none;
-    margin: 0 15px;
-}
-
-.social-menu ul li .fab {
-    font-size: 20px;
-    line-height: 60px;
-    transition: .6s;
-}
-
-.social-menu ul li a {
-    position: relative;
-    display: block;
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
-    background-color: #d6d6d6;
-    text-align: center;
-    transition: .6s;
-    opacity: 0.8;
-    color: #000000;
-}
-
-.social-menu ul li a:hover {
-    transform: translate(0, -10px);
 }
 
 /*-----------------ABOUT ME-----------------*/
@@ -182,6 +152,47 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
+
+
+/*-----------------FOOTER-----------------*/
+
+
+.social-menu ul {
+    position: absolute;
+    left: 85%;
+    padding-bottom: 80px;
+    display: flex;
+    transform: translate(-50%, -50%)
+
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+    font-size: 20px;
+    line-height: 60px;
+    transition: .6s;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #d6d6d6;
+    text-align: center;
+    transition: .6s;
+    opacity: 0.8;
+    color: #000000;
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+
 
 
 /*-----------------CONTACT-----------------*/
