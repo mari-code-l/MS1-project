@@ -11,7 +11,7 @@ body{
     background-repeat: repeat;
     background-size: cover;
     background-color: #000000;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 
@@ -19,7 +19,9 @@ body{
 
 /*-----------------NAVIGATION-----------------*/
 
-
+.navbar {
+    opacity: 0.8;
+}
 
 .navbar .logo {
     background: #faf9f9;
@@ -51,14 +53,13 @@ body{
 }
 /*-----------------CAPTION-----------------*/
 
-
 .content .landingpage .container1 {
     position: relative;
     min-height: 789px;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    margin-right: 20px;  
 }
 
 .content .landingpage .container1 .row {
@@ -79,7 +80,7 @@ body{
 .content .landing .caption a {
     margin-top: 15px;
     font-size: 25px;
-    background-color: #032877;
+    background-color: #3070fa;
     font-weight: 700;
     padding: 5px;
 }
