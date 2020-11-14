@@ -146,15 +146,42 @@ body{
 }
 
 .content .box .aboutme .title h2 {
-    text-align: center;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 20px;
     color: #fafafa;
     padding: 10px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.content .box .aboutme .title h2 i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.content .box .aboutme .title h4 {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.content .box .aboutme .title p {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .content .box .aboutme .title ul{
     color: #fafafa;
 }
 
+.content .box .aboutme .title h4.special {
+    margin-top: 18px;
+}
+
+.content .box .aboutme .title span {
+    font-size: 20px;
+    font-weight: 300;
+}
 
 
 /*-----------------CONTACT-----------------*/
