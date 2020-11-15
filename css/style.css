@@ -127,7 +127,7 @@ body{
 .content .box .aboutme .title {  
     background: #000000;
     margin-top: 20px;
-    width: 50%;
+    width: 45%;
     justify-content: center;
     opacity: 0.8;
 }
@@ -136,7 +136,7 @@ body{
     margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #fafafa;
+    color: #ffc609e5;
     padding: 5px;
     font-weight: 400;
     font-size: 22px;
