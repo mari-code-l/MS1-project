@@ -111,13 +111,17 @@ body{
 
 /*-----------------ABOUT ME-----------------*/
 
+img {
+    width: 45%;
+    max-height: 300px;
+    margin-top: 20px;
+}
  .content {
      margin-top: 80px;
  }
 
 .content .box .aboutme {
     position: relative;
-    min-height: 789px;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
