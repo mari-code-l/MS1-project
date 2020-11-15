@@ -55,8 +55,7 @@ body{
 
 .content .landingpage .container1 {
     position: relative;
-    min-height: 789px;
-    padding: 50px 100px;
+    min-height: 620px;
     display: flex;
     flex-direction: column;
     margin-right: 20px;  
@@ -64,7 +63,7 @@ body{
 
 .content .landingpage .container1 .row {
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .content .landingpage .container1 .row .landing {
@@ -87,7 +86,7 @@ body{
 }
 
 .content .landing .caption a:hover {
-    color: #f70808;
+    color: #ffc609e5;
 }
 
 .font1 {
@@ -144,8 +143,7 @@ body{
 
 .content .box .aboutme .title h2 i {
     margin-right: 10px;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 .content .box .aboutme .title h4 {
@@ -174,14 +172,13 @@ body{
 /*-----------------CONTACT-----------------*/
 
 .contact {
-    min-height: 789px;
-    padding: 30x 50px;
+    padding: 10x 10px;
     display: flex;
     flex-direction: column;
+    min-height: 620px;
 }
 
 .contact .content {
-    max-width: 800px;
     margin-left: 50px;
 }
 
@@ -191,7 +188,7 @@ body{
     color: #fafafa;
     font-family: 'Oswald', sans-serif; 
     opacity: 0.8;
-    padding-top: 30px;
+    padding-top: 20px;
     text-decoration: underline;
 }
 
@@ -203,11 +200,11 @@ body{
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container .contactInfo {
@@ -280,10 +277,7 @@ body{
     letter-spacing: 2px;
     font-size: 18px;
     margin: 5px 0;
-    border: none;
     border-bottom: 3px solid #000000;
-    outline: none;
-    resize: none;
 }
 
 .contactForm .inputBox textarea {
@@ -291,16 +285,12 @@ body{
     padding: 5px;
     font-size: 18px;
     margin: 5px 0;
-    border: none;
     border-bottom: 3px solid #000000;
-    outline: none;
-    resize: none;
 }
 
 .contactForm .inputBox span {
     color: #fafafa;
     font-size: 18px;
-    padding-bottom: 2px;
     background-color: #000000;
 }
 
@@ -319,10 +309,9 @@ body{
 .social-menu ul {
     position: absolute;
     left: 85%;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     display: flex;
     transform: translate(-50%, -50%)
-
 }
 .social-menu ul li {
     list-style: none;
@@ -341,11 +330,11 @@ body{
     height: 60px;
     width: 60px;
     border-radius: 50px;
-    background-color: #d6d6d6;
+    background-color: #000000;
     text-align: center;
     transition: .6s;
     opacity: 0.8;
-    color: #000000;
+    color: #ffc609e5;
 }
 
 .social-menu ul li a:hover {
