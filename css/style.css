@@ -78,15 +78,16 @@ body{
  }
 
 .content .landing .caption a {
+    font-family: 'BenchNine', sans-serif;
     margin-top: 15px;
     font-size: 25px;
-    background-color: #3070fa;
-    font-weight: 700;
-    padding: 5px;
+    background-color: #000000;
+    font-weight: 500;
+    padding: 7px;
 }
 
 .content .landing .caption a:hover {
-    color: #fffb14;
+    color: #f70808;
 }
 
 .font1 {
@@ -174,7 +175,7 @@ body{
 
 .contact {
     min-height: 789px;
-    padding: 50px 100px;
+    padding: 30x 50px;
     display: flex;
     flex-direction: column;
 }
@@ -190,7 +191,8 @@ body{
     color: #fafafa;
     font-family: 'Oswald', sans-serif; 
     opacity: 0.8;
-    padding-top: 10px;
+    padding-top: 30px;
+    text-decoration: underline;
 }
 
 .contact .content p {
@@ -271,6 +273,7 @@ body{
     margin-left: 40%;
     color: #fafafa;
 }
+
 .contactForm .inputBox input {
     width: 100%;
     padding: 5px;
@@ -298,7 +301,17 @@ body{
     color: #fafafa;
     font-size: 18px;
     padding-bottom: 2px;
+    background-color: #000000;
 }
+
+.contactForm .submit {
+   background:  #000000;
+}
+
+.contactForm .submit button.btn:hover {
+    color: #000000;
+}
+
 
 /*-----------------FOOTER-----------------*/
 
