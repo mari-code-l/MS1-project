@@ -10,7 +10,6 @@ body{
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    background-color: #000000;
     background-attachment: fixed; 
 }
 
@@ -20,18 +19,18 @@ body{
 /*-----------------NAVIGATION-----------------*/
 
 .navbar {
+    background-color: #000000;
     opacity: 0.8;
 }
 
 .navbar .logo {
-    background: #faf9f9;
     font-family: 'Oswald', sans-serif; 
     letter-spacing: 4px;
     font-size: 30px;
 }
 
 .navbar .logo i {
-    color: #4d4d4d;
+    color: #ffc609e5;
     font-weight: 700;
 }
 
@@ -43,13 +42,16 @@ body{
 
 .nav-link {
     font-family: 'BenchNine', sans-serif;
-    color: #000000;
+    color: #fafafa;
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 2x;
     word-spacing: 10px;
-    text-decoration: underline;
-    opacity: 0.8;
+    background-color: #000000;
+}
+
+.nav-link:hover {
+    color: #ffc609e5;
 }
 /*-----------------CAPTION-----------------*/
 
