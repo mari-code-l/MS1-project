@@ -200,7 +200,7 @@ img {
      margin-top: 80px;
  }
 
-.content .box .aboutme {
+.content .box {
     position: relative;
     padding: 50px 100px;
     display: flex;
@@ -208,7 +208,7 @@ img {
     margin-right: 20px;  
 }
 
-.content .box .aboutme .title {  
+.content .box .title {  
     background: #000000;
     margin-top: 20px;
     width: 45%;
@@ -216,7 +216,7 @@ img {
     opacity: 0.8;
 }
 
-.content .box .aboutme .title h2 {
+.content .box .title h2 {
     margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -227,59 +227,59 @@ img {
     text-decoration: underline;
 }
 
-.content .box .aboutme .title h2 i {
+.content .box .title h2 i {
     margin-right: 10px;
     font-size: 20px;   
 }
 
-.content .box .aboutme .title h4 {
+.content .box .title h4 {
     font-weight: 400;
     font-size: 20px;
 }
 
-.content .box .aboutme .title p {
+.content .box .title p {
     font-size: 20px;
     font-weight: 300;
 }
 
-.content .box .aboutme .title ul{
+.content .box .title ul{
     color: #fafafa;
 }
 
-.content .box .aboutme .title h4.special {
+.content .box .title h4.special {
     margin-top: 10px;
 }
 
-.content .box .aboutme .title span {
+.content .box .title span {
     font-size: 20px;
     font-weight: 300;
 }
 
 
  @media all and (max-width: 480px) {
-    .content .box .aboutme .title {
+    .content .box .title {
         width: 160%;
         justify-content: center;
         align-self: center;
         margin-left: 5px;
         margin-right: 5px;
      }   
-    .content .box .aboutme .title h2 {
+    .content .box .title h2 {
         margin-left: 5px;
         margin-right: 5px;
         font-size: 23px;
     }
-     .content .box .aboutme .title h4 {   
+     .content .box  .title h4 {   
         margin-left: 5px;
         margin-right: 5px;
         font-size: 18px;
      }
-    .content .box .aboutme .title p {
+    .content .box .title p {
         margin-left: 5px;
         margin-right: 5px; 
         font-size: 16px;
     }
-    .content .box .aboutme .title span {
+    .content .box .title span {
        font-size: 16px; 
        margin-left: 5px;
         margin-right: 5px; 
@@ -287,33 +287,33 @@ img {
     img {
         width: 160%;
         margin-top: 20px;
-    }
+    }me
  }
 
 @media all and (max-width: 768px) {
-    .content .box .aboutme .title {
+    .content .box .title {
         width: 160%;
         justify-content: center;
         align-self: center;
         margin-left: 5px;
         margin-right: 5px;
      }   
-    .content .box .aboutme .title h2 {
+    .content .box .title h2 {
         margin-left: 5px;
         margin-right: 5px;
         font-size: 23px;
     }
-     .content .box .aboutme .title h4 {   
+     .content .box .title h4 {   
         margin-left: 5px;
         margin-right: 5px;
         font-size: 18px;
      }
-    .content .box .aboutme .title p {
+    .content .box .title p {
         margin-left: 5px;
         margin-right: 5px; 
         font-size: 16px;
     }
-    .content .box .aboutme .title span {
+    .content .box .title span {
        font-size: 16px; 
        margin-left: 5px;
         margin-right: 5px; 
@@ -325,29 +325,29 @@ img {
  }
 
  @media all and (max-width: 1024px) {
-    .content .box .aboutme .title {
+    .content .box  .title {
         width: 100%;
         justify-content: center;
         align-self: center;
         margin-left: 5px;
         margin-right: 5px;
      }   
-    .content .box .aboutme .title h2 {
+    .content .box .title h2 {
         margin-left: 5px;
         margin-right: 5px;
         font-size: 23px;
     }
-     .content .box .aboutme .title h4 {   
+     .content .box .title h4 {   
         margin-left: 5px;
         margin-right: 5px;
         font-size: 18px;
      }
-    .content .box .aboutme .title p {
+    .content .box .title p {
         margin-left: 5px;
         margin-right: 5px; 
         font-size: 16px;
     }
-    .content .box .aboutme .title span {
+    .content .box .title span {
        font-size: 16px; 
        margin-left: 5px;
         margin-right: 5px; 
@@ -362,7 +362,7 @@ img {
     img {
         width: 100%;
     }
-    .content .box .aboutme .title {
+    .content .box .title {
         width: 100%;
         justify-content: center;
         align-self: center;
