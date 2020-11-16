@@ -22,14 +22,15 @@ body{
     opacity: 0.8;
 }
 
-.navbar .logo {
+.navbar .logo a  i {
     letter-spacing: 4px;
     font-size: 30px;
+    text-decoration: underline;
+    color: #ffc609e5;
 }
 
-.navbar .logo i {
-    color: #ffc609e5;
-    font-weight: 700;
+.navbar .logo a  i:hover {
+    font-size: 35px;
 }
 
 .navbutton {
@@ -76,7 +77,6 @@ body{
  }
 
 .content .landing .caption a {
-    font-family: 'Oswald', sans-serif; 
     margin-top: 15px;
     font-size: 25px;
     background-color: #000000;
