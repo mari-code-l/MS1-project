@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background: url("../images/portfolio.jpg");
+    background: url("../images/smart1.jpg");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -33,12 +33,6 @@ body{
     font-size: 35px;
 }
 
-.navbar-nav {
-    margin-top: 1px;
-    margin-right: 1px;
-    margin-bottom: 1px
-}
-
 .nav-link {
     color: #fafafa;
     font-weight: 400;
@@ -58,12 +52,12 @@ body{
     min-height: 620px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;  
+    margin-right: 50px;  
 }
 
 .content .landingpage .container1 .row {
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 25%;
+    margin-top: 30%;
 }
 
 .content .landingpage .container1 .row .landing {
@@ -91,19 +85,19 @@ body{
 .font1 {
     font-size: 30px;
     font-weight: 500;
-    color: #000000;
+    color: #fafafa;
 }
 
 .font2 {
     font-size: 40px;
     font-weight: 500;
-    color: #000000;
+    color: #fafafa;
 }
 
 .font3 {
     font-size: 32px;
     font-weight: 400;
-    color:#000000;
+    color:#fafafa;
 }
 
 
