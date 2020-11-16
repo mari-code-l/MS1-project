@@ -1,10 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 body{
     margin: 0;
-    font-family: 'BenchNine', sans-serif;
     font-family: 'Oswald', sans-serif;
     background: url("../images/portfolio.jpg");
     background-position: center;
@@ -24,7 +23,6 @@ body{
 }
 
 .navbar .logo {
-    font-family: 'Oswald', sans-serif; 
     letter-spacing: 4px;
     font-size: 30px;
 }
@@ -41,10 +39,9 @@ body{
 }
 
 .nav-link {
-    font-family: 'BenchNine', sans-serif;
     color: #fafafa;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 25px;
     letter-spacing: 2x;
     word-spacing: 10px;
     background-color: #000000;
@@ -79,7 +76,7 @@ body{
  }
 
 .content .landing .caption a {
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Oswald', sans-serif; 
     margin-top: 15px;
     font-size: 25px;
     background-color: #000000;
@@ -378,30 +375,19 @@ img {
 /*-----------------CONTACT-----------------*/
 
 .contact {
-    padding: 10x 10px;
     display: flex;
     flex-direction: column;
-    min-height: 620px;
+    min-height: 700px;
 }
 
 .contact .content {
     margin-left: 50px;
 }
 
-.contact .content h2 {
-    font-size: 35px;
-    font-weight: 500;
-    color: #fafafa;
-    font-family: 'Oswald', sans-serif; 
-    opacity: 0.8;
-    padding-top: 20px;
-    text-decoration: underline;
-}
-
 .contact .content p {
     font-weight: 500;
     color: #fafafa;
-    font-size: 25px;
+    font-size: 30px;
     opacity: 0.8;
 }
 
@@ -511,57 +497,31 @@ img {
 
 /*-----------------FOOTER-----------------*/
 
-
 .social-menu ul {
-    position: absolute;
-    left: 85%;
-    padding-bottom: 20px;
-    display: flex;
-    transform: translate(-50%, -50%)
+    display: flex;  
+    padding-left: 75%;
 }
 .social-menu ul li {
-    list-style: none;
     margin: 0 15px;
+    list-style: none;
 }
 
 .social-menu ul li .fab {
     font-size: 20px;
     line-height: 60px;
-    transition: .6s;
 }
 
 .social-menu ul li a {
-    position: relative;
-    display: block;
     height: 60px;
     width: 60px;
     border-radius: 50px;
     background-color: #000000;
     text-align: center;
-    transition: .6s;
+    display: block;
     opacity: 0.8;
     color: #ffc609e5;
 }
 
 .social-menu ul li a:hover {
-    transform: translate(0, -10px);
+    color: #fafafa;
 }
-
-
-/*-----------------MEDIA QUERIES-----------------*/
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-    
- }
- 
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    
- }
- 
-@media all and (min-width: 480px) and (max-width: 768px) {
-    
- }
- 
-@media all and (max-width: 480px) {
-
- }
