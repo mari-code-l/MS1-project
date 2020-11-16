@@ -192,7 +192,7 @@ body{
 /*-----------------ABOUT ME-----------------*/
 
 img {
-    width: 45%;
+    width: 100%;
     max-height: 300px;
     margin-top: 20px;
 }
@@ -211,7 +211,7 @@ img {
 .content .box .title {  
     background: #000000;
     margin-top: 20px;
-    width: 45%;
+    width: 100%;
     justify-content: center;
     opacity: 0.8;
 }
@@ -258,7 +258,7 @@ img {
 
  @media all and (max-width: 480px) {
     .content .box .title {
-        width: 160%;
+        width: 100%;
         justify-content: center;
         align-self: center;
         margin-left: 5px;
@@ -285,14 +285,14 @@ img {
         margin-right: 5px; 
     }
     img {
-        width: 160%;
+        width: 100%;
         margin-top: 20px;
     }me
  }
 
 @media all and (max-width: 768px) {
     .content .box .title {
-        width: 160%;
+        width: 100%;
         justify-content: center;
         align-self: center;
         margin-left: 5px;
