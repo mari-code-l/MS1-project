@@ -22,18 +22,18 @@ body{
     opacity: 0.8;
 }
 
-.navbar .logo a  i {
+.navbar .collapse a  i {
     letter-spacing: 4px;
     font-size: 30px;
     text-decoration: underline;
     color: #ffc609e5;
 }
 
-.navbar .logo a  i:hover {
+.navbar .collapse a  i:hover {
     font-size: 35px;
 }
 
-.navbutton {
+.navbar-nav {
     margin-top: 1px;
     margin-right: 1px;
     margin-bottom: 1px
