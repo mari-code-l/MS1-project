@@ -7,7 +7,7 @@ body{
     font-family: 'Oswald', sans-serif;
     background: url("../images/smart1.jpg");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
 }
@@ -22,7 +22,7 @@ body{
     opacity: 0.8;
 }
 
-.navbar .collapse a  i {
+.navbar .collapse a i {
     letter-spacing: 4px;
     font-size: 30px;
     text-decoration: underline;
@@ -37,7 +37,7 @@ body{
     color: #fafafa;
     font-weight: 400;
     font-size: 25px;
-    letter-spacing: 2x;
+    letter-spacing: 2px;
     word-spacing: 10px;
     background-color: #000000;
 }
@@ -51,6 +51,7 @@ body{
     font-size: 18px;
     padding: 2px 2px;
     margin-top: 2px;
+    color:#fafafa;
 }
 
 .navbar .collapse ul li a span:hover {
@@ -60,34 +61,28 @@ body{
 /*-----------------CAPTION-----------------*/
 
 .content .landingpage .container1 {
-    position: relative;
-    min-height: 620px;
+    
+    max-height: 620px;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;  
 }
 
-.content .landingpage .container1 .row {
-    margin-left: 25%;
-    margin-top: 30%;
-}
-
-.content .landingpage .container1 .row .landing {
+.content .landingpage .container1 .page {
     background-color: transparent;
+    margin-left: 22%;
+    margin-top: 340px;
  }
 
-.content .landingpage .container1 .row .landing .caption {
+.content .landingpage .container1 .page .landing .caption {
      letter-spacing: 1px;
-     padding-bottom: 3px;
      opacity: 0.8;   
  }
 
+
 .content .landing .caption a {
-    margin-top: 15px;
     font-size: 25px;
     background-color: #000000;
     font-weight: 500;
-    padding: 7px;
 }
 
 .content .landing .caption a:hover {
@@ -101,7 +96,7 @@ body{
 }
 
 .font2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
     color: #fafafa;
 }
@@ -113,88 +108,6 @@ body{
 }
 
 
-@media all and (max-width: 480px) {
-    .font1 {
-    font-size: 20px;
-    }
-    .font2 {
-    font-size: 23px;
-    padding-top: 2px;
-    }
-    .font3 {
-    font-size: 20px;
-    padding-top: 2px;
-    }
-    .content .landing .caption a {
-        font-size: 15px;
-    }
-    .content .landingpage .container1 .row {
-        padding-top: 110px;
-        padding-left: 0;
-    }
-    .content .landingpage .container1 .row .landing .caption {
-        padding: 10px 10px;
-    }
- }
- @media all and (min-width: 481px) and (max-width: 768px) {
-    .font1 {
-    font-size: 25spx;
-    }
-    .font2 {
-    font-size: 28px;
-    padding-top: 2px;
-    }
-    .font3 {
-    font-size: 23px;
-    padding-top: 2px;
-    }
-    .content .landing .caption a {
-        font-size: 20px;
-    }
-    .content .landingpage .container1 .row {
-        padding-top: 300px;
-        padding-left: 0;
-    }
-    .content .landingpage .container1 .row .landing .caption {
-        padding: 10px 10px;
-    }
-    .social-menu ul {
-    position: absolute;
-    left: 85%;
-    padding-bottom: 30px;
-    display: flex;
-    }
- }
-
- @media all and (min-width: 767px) and (max-width: 1024px) {
-     .font1 {
-    font-size: 30px;
-    }
-    .font2 {
-    font-size: 35px;
-    padding-top: 2px;
-    }
-    .font3 {
-    font-size: 28px;
-    padding-top: 2px;
-    }
-    .content .landing .caption a {
-        font-size: 25px;
-    }
-    .content .landingpage .container1 .row {
-        padding-top: 150px;
-        padding-left: 0;
-    }
-    .content .landingpage .container1 .row .landing .caption {
-        padding: 10px 10px;
-    }
-    .social-menu ul {
-    position: absolute;
-    left: 85%;
-    padding-bottom: 30px;
-    display: flex;
-    }
- }
 /*-----------------ABOUT ME-----------------*/
 
 img {
@@ -202,7 +115,7 @@ img {
     max-height: 300px;
     margin-top: 20px;
 }
- .content {
+.content {
      margin-top: 80px;
  }
 
@@ -260,123 +173,6 @@ img {
     font-size: 20px;
     font-weight: 300;
 }
-
-
- @media all and (max-width: 480px) {
-    .content .box .title {
-        width: 100%;
-        justify-content: center;
-        align-self: center;
-        margin-left: 5px;
-        margin-right: 5px;
-     }   
-    .content .box .title h2 {
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 23px;
-    }
-     .content .box  .title h4 {   
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 18px;
-     }
-    .content .box .title p {
-        margin-left: 5px;
-        margin-right: 5px; 
-        font-size: 16px;
-    }
-    .content .box .title span {
-       font-size: 16px; 
-       margin-left: 5px;
-        margin-right: 5px; 
-    }
-    img {
-        width: 100%;
-        margin-top: 20px;
-    }me
- }
-
-@media all and (max-width: 768px) {
-    .content .box .title {
-        width: 100%;
-        justify-content: center;
-        align-self: center;
-        margin-left: 5px;
-        margin-right: 5px;
-     }   
-    .content .box .title h2 {
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 23px;
-    }
-     .content .box .title h4 {   
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 18px;
-     }
-    .content .box .title p {
-        margin-left: 5px;
-        margin-right: 5px; 
-        font-size: 16px;
-    }
-    .content .box .title span {
-       font-size: 16px; 
-       margin-left: 5px;
-        margin-right: 5px; 
-    }
-    img {
-        width: 160%;
-        margin-top: 20px;
-    }
- }
-
- @media all and (max-width: 1024px) {
-    .content .box  .title {
-        width: 100%;
-        justify-content: center;
-        align-self: center;
-        margin-left: 5px;
-        margin-right: 5px;
-     }   
-    .content .box .title h2 {
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 23px;
-    }
-     .content .box .title h4 {   
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 18px;
-     }
-    .content .box .title p {
-        margin-left: 5px;
-        margin-right: 5px; 
-        font-size: 16px;
-    }
-    .content .box .title span {
-       font-size: 16px; 
-       margin-left: 5px;
-        margin-right: 5px; 
-    }
-    img {
-        width: 100%;
-        margin-top: 20px;
-    }
- }
- @media all and (max-width: 1280px) {
-
-    img {
-        width: 100%;
-    }
-    .content .box .title {
-        width: 100%;
-        justify-content: center;
-        align-self: center;
-        margin-left: 5px;
-        margin-right: 5px;
-     }   
- }
- 
 
 /*-----------------CONTACT-----------------*/
 
@@ -503,21 +299,22 @@ img {
 
 /*-----------------FOOTER-----------------*/
 
-.social-menu ul {
+.fixed-bottom ul {
     display: flex;  
-    padding-left: 75%;
+    justify-content: center;
+    align-items: center;
 }
-.social-menu ul li {
+.fixed-bottom ul li {
     margin: 0 15px;
     list-style: none;
 }
 
-.social-menu ul li .fab {
+.fixed-bottom ul li .fab {
     font-size: 20px;
     line-height: 60px;
 }
 
-.social-menu ul li a {
+.fixed-bottom ul li a {
     height: 60px;
     width: 60px;
     border-radius: 50px;
@@ -528,6 +325,32 @@ img {
     color: #ffc609e5;
 }
 
-.social-menu ul li a:hover {
+.fixed-bottom ul li a:hover {
     color: #fafafa;
+}
+
+
+
+/*-----------------MEDIA QUERIES-----------------*/
+
+@media screen and (min-width: 360px) { 
+
+}   
+
+@media screen and (min-width: 576px) { 
+  
+}
+
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
 }
