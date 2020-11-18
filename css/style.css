@@ -27,10 +27,12 @@ body{
     font-size: 30px;
     text-decoration: underline;
     color: #ffc609e5;
+    transition: 0.5s;
 }
 
 .navbar .collapse a  i:hover {
     font-size: 35px;
+    transition: 0.5s;
 }
 
 .nav-link {
@@ -52,6 +54,7 @@ body{
     padding: 2px 2px;
     margin-top: 2px;
     color:#fafafa;
+    transition: 0.5s;
 }
 
 .navbar .collapse ul li a span:hover {
@@ -97,18 +100,18 @@ body{
     color:#fafafa;
     padding: 2px 0;
 }
-
 .content .container1 .page .landing .caption a {
     padding: 3px;
     background-color: #ff0909e5;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .content .container1 .page .landing .caption a:hover {
     color: #000000;
     padding: 2px;
     background-color: #ffc609e5;
+    transition: 0.5s;
 }
 
 
@@ -290,21 +293,23 @@ img {
 
 /*-----------------FOOTER-----------------*/
 
-.fixed-bottom ul {
+.fixed-bottom ul  {
     display: flex;  
     justify-content: center;
     align-items: center;
 }
+.fixed-bottom ul li:hover{
+     transform: translate(-0%, -5%);
+     transition: 0.5s;
+}   
 .fixed-bottom ul li {
     margin: 0 15px;
     list-style: none;
 }
-
 .fixed-bottom ul li .fab {
     font-size: 20px;
     line-height: 60px;
 }
-
 .fixed-bottom ul li a {
     height: 60px;
     width: 60px;
@@ -315,7 +320,6 @@ img {
     opacity: 0.8;
     color: #ffc609e5;
 }
-
 .fixed-bottom ul li a:hover {
     color: #fafafa;
 }
@@ -327,6 +331,10 @@ img {
     justify-content: center;
     align-items: center;
 }
+.social-menu ul li:hover{
+     transform: translate(-0%, -5%);
+     transition: 0.5s;
+}  
 .social-menu ul li {
     margin: 0 15px;
     list-style: none;
