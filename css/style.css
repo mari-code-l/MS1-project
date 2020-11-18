@@ -60,52 +60,59 @@ body{
 }
 /*-----------------CAPTION-----------------*/
 
-.content .landingpage .container1 {
-    
+.content .container1 {
     max-height: 620px;
     display: flex;
     flex-direction: column;
 }
 
-.content .landingpage .container1 .page {
+.content .container1 .page {
     background-color: transparent;
     margin-left: 22%;
-    margin-top: 340px;
+    margin-top: 420px;
  }
 
-.content .landingpage .container1 .page .landing .caption {
+.content .container1 .page .landing .caption {
      letter-spacing: 1px;
-     opacity: 0.8;   
- }
-
-
-.content .landing .caption a {
-    font-size: 25px;
-    background-color: #000000;
-    font-weight: 500;
-}
-
-.content .landing .caption a:hover {
-    color: #ffc609e5;
-}
+     opacity: 0.8;      
+}    
 
 .font1 {
     font-size: 30px;
     font-weight: 500;
     color: #fafafa;
+    padding: 2px 0;
 }
 
 .font2 {
     font-size: 36px;
     font-weight: 500;
     color: #fafafa;
+    padding: 2px 0;
 }
 
 .font3 {
     font-size: 32px;
     font-weight: 400;
     color:#fafafa;
+    padding: 2px 0;
 }
+
+
+
+.content .container1 .page .landing .caption a {
+    padding: 3px;
+    background-color: #ff0909e5;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.content .container1 .page .landing .caption a:hover {
+    color: #000000;
+    padding: 2px;
+    background-color: #ffc609e5;
+}
+
 
 
 /*-----------------ABOUT ME-----------------*/
@@ -329,28 +336,174 @@ img {
     color: #fafafa;
 }
 
+/*-----------------FOOTER about me-----------------*/
+
+.social-menu ul {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.social-menu ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+.social-menu ul li .fab {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.social-menu ul li a {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #000000;
+    text-align: center;
+    display: block;
+    opacity: 0.8;
+    color: #ffc609e5;
+}
+
+.social-menu ul li a:hover {
+    color: #fafafa;
+}
+
 
 
 /*-----------------MEDIA QUERIES-----------------*/
 
 @media screen and (min-width: 360px) { 
 
-}   
+.content .landingpage .container1 .page {
+    align-items: center;
+ }
+
+.font1 {
+    font-size: 22px;
+}
+
+.font2 {
+    font-size: 25px;
+}
+
+.font3 {
+    font-size: 22px;
+}
+.content .landing .caption a {
+    font-size: 18px;
+}
+}
+
 
 @media screen and (min-width: 576px) { 
-  
+.content .landingpage .container1 .page {
+    align-items: center;
+ }
+
+.font1 {
+    font-size: 24px;
+}
+
+.font2 {
+    font-size: 30px;
+}
+
+.font3 {
+    font-size: 24px;
+}
+.content .landing .caption a {
+    font-size: 20px;
+}
 }
 
 
 @media screen and (min-width: 768px) {
-   
+.content .landingpage .container1 .page {
+    align-items: center;
+    margin-top: 550px;
+ }
+
+.font1 {
+    font-size: 32px;
+}
+
+.font2 {
+    font-size: 35px;
+}
+
+.font3 {
+    font-size: 30px;
+}
+.content .landing .caption a {
+    font-size: 28px;
+}
 }
 
 @media screen and (min-width: 992px) {
+.content .landingpage .container1 .page {
+    align-items: center;
+    margin-top: 720px;
+ }
 
+.font1 {
+    font-size: 42px;
+}
+
+.font2 {
+    font-size: 45px;
+}
+
+.font3 {
+    font-size: 38px;
+}
+.content .landing .caption a {
+    font-size: 36px;
+}
 }
 
 
 @media screen and (min-width: 1200px) {
+.content .landingpage .container1 .page {
+    align-items: center;
+    margin-top: 320px;
+    margin-left: 25%;
+ }
 
+.font1 {
+    font-size: 35px;
 }
+
+.font2 {
+    font-size: 40px;
+}
+
+.font3 {
+    font-size: 33px;
+}
+.content .landing .caption a {
+    font-size: 32px;
+}
+}
+
+@media screen and (min-width: 1400px) {
+.content .landingpage .container1 .page {
+    align-items: center;
+ }
+
+.font1 {
+    font-size: 38px;
+}
+
+.font2 {
+    font-size: 42px;
+}
+
+.font3 {
+    font-size: 35px;
+}
+.content .landing .caption a {
+    font-size: 33px;
+}
+}
+
+
