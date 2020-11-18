@@ -98,8 +98,6 @@ body{
     padding: 2px 0;
 }
 
-
-
 .content .container1 .page .landing .caption a {
     padding: 3px;
     background-color: #ff0909e5;
@@ -131,7 +129,6 @@ img {
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;  
 }
 
 .content .box .title {  
@@ -183,38 +180,24 @@ img {
 
 /*-----------------CONTACT-----------------*/
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    min-height: 700px;
-}
-
-.contact .content {
-    margin-left: 50px;
-}
-
 .contact .content p {
     font-weight: 500;
     color: #fafafa;
     font-size: 30px;
     opacity: 0.8;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
-.container {
+.contact .container {
     width: 90%;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
-    margin-top: 10px;
 }
 
-.container .contactInfo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.container .contactInfo .box {
+.contact .container .contactInfo .box {
     position: relative;
     padding: 20px;
     display: flex;
@@ -247,6 +230,7 @@ img {
     font-size: 20px;
     text-decoration: underline;
 }
+
 
 .contactForm {
     background: #000000;
@@ -392,6 +376,49 @@ img {
 .content .landing .caption a {
     font-size: 18px;
 }
+
+.content .box {
+    padding: 50px 50px; 
+}
+
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+}
+.contact .content {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.contactForm {
+    width: 80%;
+}
+.div.contactInfo {
+    align-content: center;
+}
+div.box {
+    padding: 5px;
+}
+.contact .container .contactInfo .box {
+    padding: 0px;
+
+}
+.container .contactInfo .box .icon {
+    min-width: 30px;
+    height: 30px;
+}
+.contactForm {
+    padding: 10px;
+}
+.contactForm form {
+    padding: 3px;
+}
+.contactForm .submit {
+    margin-top: 2px;  
+}
+.btn.btn-default.btn-warning {
+    padding: 2px;
+}
 }
 
 
@@ -399,20 +426,51 @@ img {
 .content .landingpage .container1 .page {
     align-items: center;
  }
-
 .font1 {
     font-size: 24px;
 }
-
 .font2 {
     font-size: 30px;
 }
-
 .font3 {
     font-size: 24px;
 }
 .content .landing .caption a {
     font-size: 20px;
+}
+.div.contactInfo {
+    align-content: center;
+}
+div.box {
+    padding: 5px;
+}
+.contact .container {
+    display: flex;
+    flex-direction: column;
+}
+.contact .content {
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.contact .container .contactInfo .box {
+    padding: 0px;
+}
+.container .contactInfo .box .icon {
+    min-width: 40px;
+    height: 40px;
+}
+.contactForm {
+    padding: 10px;
+    width: 70%; 
+}
+.contactForm form {
+    padding: 10px;
+}
+.contactForm .submit {
+    margin-top: 2px;  
+}
+.btn.btn-default.btn-warning {
+    padding: 2px;
 }
 }
 
@@ -421,21 +479,57 @@ img {
 .content .landingpage .container1 .page {
     align-items: center;
     margin-top: 550px;
- }
-
+}
 .font1 {
     font-size: 32px;
 }
-
 .font2 {
     font-size: 35px;
 }
-
 .font3 {
     font-size: 30px;
 }
 .content .landing .caption a {
     font-size: 28px;
+}
+
+.div.contactInfo {
+    align-content: center;
+}
+div.box {
+    padding: 5px;
+}
+.contact .container {
+    display: flex;
+    flex-direction: row;
+}
+.contact .content {
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact .container .contactInfo {
+    margin-right: 100px;
+}
+.contact .container .contactInfo .box {
+    padding: 10px;
+}
+.container .contactInfo .box .icon {
+    min-width: 30px;
+    height: 30px;
+}
+.contactForm {
+    padding: 10px;
+    width: 40%; 
+}
+.contactForm form {
+    padding: 10px;
+}
+.contactForm .submit {
+    margin-top: 5px;  
+}
+.btn.btn-default.btn-warning {
+    padding: 2px;
 }
 }
 
@@ -459,6 +553,45 @@ img {
 .content .landing .caption a {
     font-size: 36px;
 }
+
+.div.contactInfo {
+    align-content: center;
+}
+div.box {
+    padding: 5px;
+}
+.contact .container {
+    display: flex;
+    flex-direction: row;
+}
+.contact .content {
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact .container .contactInfo {
+    margin-right: 100px;
+}
+.contact .container .contactInfo .box {
+    padding: 10px;
+}
+.container .contactInfo .box .icon {
+    min-width: 30px;
+    height: 30px;
+}
+.contactForm {
+    padding: 10px;
+    width: 40%; 
+}
+.contactForm form {
+    padding: 10px;
+}
+.contactForm .submit {
+    margin-top: 10px;  
+}
+.btn.btn-default.btn-warning {
+    padding: 5px;
+}
 }
 
 
@@ -472,38 +605,57 @@ img {
 .font1 {
     font-size: 35px;
 }
-
 .font2 {
     font-size: 40px;
 }
-
 .font3 {
     font-size: 33px;
 }
 .content .landing .caption a {
     font-size: 32px;
 }
+.div.contactInfo {
+    align-content: center;
+}
+div.box {
+    padding: 5px;
+}
+.contact .container {
+    display: flex;
+    flex-direction: row;
+}
+.contact .content {
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact .content p {
+    font-size: 40px;
+}
+.contact .container .contactInfo {
+    margin-right: 100px;
+}
+.contact .container .contactInfo .box {
+    padding: 10px;
+}
+.container .contactInfo .box .icon {
+    min-width: 30px;
+    height: 30px;
+}
+.contactForm {
+    padding: 10px;
+    width: 40%; 
+}
+.contactForm form {
+    padding: 10px;
+}
+.contactForm .submit {
+    margin-top: 10px;  
+}
+.btn.btn-default.btn-warning {
+    padding: 5px;
+}
 }
 
-@media screen and (min-width: 1400px) {
-.content .landingpage .container1 .page {
-    align-items: center;
- }
-
-.font1 {
-    font-size: 38px;
-}
-
-.font2 {
-    font-size: 42px;
-}
-
-.font3 {
-    font-size: 35px;
-}
-.content .landing .caption a {
-    font-size: 33px;
-}
-}
 
 
