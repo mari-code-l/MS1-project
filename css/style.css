@@ -202,20 +202,19 @@ img {
 
 .contact .container .contactInfo .box {
     position: relative;
-    padding: 20px;
+    padding: 40px;
     display: flex;
 }
 
 .container .contactInfo .box .icon {
     min-width: 60px;
-    height: 60px;
-    background: #fafafa;
+    height:60px;
+    background: #ffc609e5;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 20px;
-    opacity: 0.8;
 }
 
 .container .contactInfo .box .text {
@@ -606,7 +605,7 @@ div.box {
 @media screen and (min-width: 1200px) {
 .content .landingpage .container1 .page {
     align-items: center;
-    margin-top: 380px;
+    margin-top: 330px;
     margin-left: 23%;
  }
 
@@ -644,11 +643,11 @@ div.box {
     margin-right: 100px;
 }
 .contact .container .contactInfo .box {
-    padding: 10px;
+    padding: 30px;
 }
 .container .contactInfo .box .icon {
-    min-width: 30px;
-    height: 30px;
+    min-width: 50px;
+    height: 50px;
 }
 .contactForm {
     padding: 10px;
