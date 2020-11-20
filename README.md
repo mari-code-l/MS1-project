@@ -70,6 +70,7 @@ My solution was using 1 background image which is easy to design.
 it has a long content, I made its own element and added the same design which it worked.
 * Media queries was hard for me to understand even if I watch tutorials. At the end I tried fixing it myself by trial and error which it made me more understand.
 * Wrong divs which disaligned my content. I fixed it by using CSS and HTML validator.
+* Im not so familiar on Dev tools yet but stii learning on the process.
 
 ## WORKSPACE & REPOSITORIES STORAGE 
 * https://github.com/
@@ -109,7 +110,7 @@ This project has been deployed on Github Pages with the following process:
 * https://getbootstrap.com/ - design
 * https://www.youtube.com/ - ideas
 * https://fontawesome.com/ - icons
-* https://www.youtube.com/watch?v=gggB0Nq5vBk - few contact form ideas
+* https://www.youtube.com/watch?v=gggB0Nq5vBk - form ideas
 
 ### Media
 * https://unsplash.com/ -  Markus Spiske, Ales Nesetril, Gustas Barazaitis, Ali Marel, Derek Perez
