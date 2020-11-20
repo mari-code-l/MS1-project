@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
@@ -12,16 +11,12 @@ body{
     background-attachment: fixed; 
 }
 
-
-
-
 /*-----------------NAVIGATION-----------------*/
 
 .navbar {
     background-color: #000000;
     opacity: 0.8;
 }
-
 .navbar .collapse a i {
     letter-spacing: 4px;
     font-size: 30px;
@@ -34,7 +29,6 @@ body{
     font-size: 35px;
     transition: 0.5s;
 }
-
 .nav-link {
     color: #fafafa;
     font-weight: 400;
@@ -43,11 +37,9 @@ body{
     word-spacing: 10px;
     background-color: #000000;
 }
-
 .nav-link:hover {
     color: #ffc609e5;
 }
-
 .navbar .collapse ul li a span {
     background-color :#ff0909e5;
     font-size: 18px;
@@ -56,7 +48,6 @@ body{
     color:#fafafa;
     transition: 0.5s;
 }
-
 .navbar .collapse ul li a span:hover {
     font-size: 20px;
     color: #000000;
@@ -68,32 +59,27 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .content .container1 .page {
     background-color: transparent;
     margin-left: 22%;
     margin-top: 420px;
  }
-
 .content .container1 .page .landing .caption {
      letter-spacing: 1px;
      opacity: 0.8;      
 }    
-
 .font1 {
     font-size: 30px;
     font-weight: 500;
     color: #ffc609e5;
     padding: 2px 0;
 }
-
 .font2 {
     font-size: 36px;
     font-weight: 500;
     color: #ffc609e5;
     padding: 2px 0;
 }
-
 .font3 {
     font-size: 32px;
     font-weight: 400;
@@ -106,15 +92,12 @@ body{
     font-weight: 400;
     font-size: 25px;
 }
-
 .content .container1 .page .landing .caption a:hover {
     color: #000000;
     padding: 2px;
     background-color: #ffc609e5;
     transition: 0.5s;
 }
-
-
 
 /*-----------------ABOUT ME-----------------*/
 
@@ -125,15 +108,13 @@ img {
 }
 .content {
      margin-top: 80px;
- }
-
+}
 .content .box {
     position: relative;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
 }
-
 .content .box .title {  
     background: #000000;
     margin-top: 20px;
@@ -141,7 +122,6 @@ img {
     justify-content: center;
     opacity: 0.8;
 }
-
 .content .box .title h2 {
     margin-left: 10%;
     margin-top: 10px;
@@ -157,25 +137,20 @@ img {
     margin-right: 10px;
     font-size: 20px;   
 }
-
 .content .box .title h4 {
     font-weight: 400;
     font-size: 20px;
 }
-
 .content .box .title p {
     font-size: 20px;
     font-weight: 300;
 }
-
 .content .box .title ul{
     color: #fafafa;
 }
-
 .content .box .title h4.special {
     margin-top: 10px;
 }
-
 .content .box .title span {
     font-size: 20px;
     font-weight: 300;
@@ -191,7 +166,6 @@ img {
     padding-top: 50px;
     padding-left: 50px;
 }
-
 .contact .container {
     width: 90%;
     display: flex;
@@ -199,13 +173,11 @@ img {
     flex-direction: row;
     align-items: center;
 }
-
 .contact .container .contactInfo .box {
     position: relative;
     padding: 40px;
     display: flex;
 }
-
 .container .contactInfo .box .icon {
     min-width: 60px;
     height:60px;
@@ -216,7 +188,6 @@ img {
     border-radius: 50%;
     font-size: 20px;
 }
-
 .container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
@@ -225,39 +196,32 @@ img {
     flex-direction: column;
     font-weight: 300;
 }
-
 .container .contactInfo .box .text h3 {
     font-weight: 500;
-    color: ##ffc609e5;
+    color: #ffc609e5;
     font-size: 20px;
     text-decoration: underline;
 }
-
-
 .contactForm {
     background: #000000;
     width: 40%;
     padding: 30px;
     opacity: 0.7;
 }
-
 .contactForm h2 {
     color: #fafafa;
     font-size: 22px;
     font-weight: 700;
 }
-
 .contactForm .inputBox {
     position: relative;
     width: 100%;
 }
-
 .contactForm .submit {
     margin-top: 10px;  
     margin-left: 40%;
     color: #fafafa;
 }
-
 .contactForm .inputBox input {
     width: 100%;
     padding: 5px;
@@ -266,7 +230,6 @@ img {
     margin: 5px 0;
     border-bottom: 3px solid #000000;
 }
-
 .contactForm .inputBox textarea {
     width: 100%;
     padding: 5px;
@@ -274,21 +237,17 @@ img {
     margin: 5px 0;
     border-bottom: 3px solid #000000;
 }
-
 .contactForm .inputBox span {
     color: #fafafa;
     font-size: 18px;
     background-color: #000000;
 }
-
 .contactForm .submit {
    background:  #000000;
 }
-
 .contactForm .submit button.btn:hover {
     color: #000000;
 }
-
 
 /*-----------------FOOTER-----------------*/
 
@@ -338,12 +297,10 @@ img {
     margin: 0 15px;
     list-style: none;
 }
-
 .social-menu ul li .fab {
     font-size: 20px;
     line-height: 60px;
 }
-
 .social-menu ul li a {
     height: 60px;
     width: 60px;
@@ -354,12 +311,9 @@ img {
     opacity: 0.8;
     color: #ffc609e5;
 }
-
 .social-menu ul li a:hover {
     color: #fafafa;
 }
-
-
 
 /*-----------------MEDIA QUERIES-----------------*/
 
@@ -368,27 +322,21 @@ img {
 .content .landingpage .container1 .page {
     align-items: center;
  }
-
 .font1 {
     font-size: 22px;
 }
-
 .font2 {
     font-size: 25px;
 }
-
 .font3 {
     font-size: 22px;
 }
 .content .landing .caption a {
     font-size: 18px;
 }
-
 .content .box {
     padding: 50px 50px; 
 }
-
-
 .contact .container {
     display: flex;
     flex-direction: column;
@@ -408,7 +356,6 @@ div.box {
 }
 .contact .container .contactInfo .box {
     padding: 0px;
-
 }
 .container .contactInfo .box .icon {
     min-width: 30px;
@@ -427,7 +374,6 @@ div.box {
     padding: 2px;
 }
 }
-
 
 @media screen and (min-width: 576px) { 
 .content .landingpage .container1 .page {
@@ -481,7 +427,6 @@ div.box {
 }
 }
 
-
 @media screen and (min-width: 768px) {
 .content .landingpage .container1 .page {
     align-items: center;
@@ -499,7 +444,6 @@ div.box {
 .content .landing .caption a {
     font-size: 28px;
 }
-
 .div.contactInfo {
     align-content: center;
 }
@@ -544,23 +488,19 @@ div.box {
 .content .landingpage .container1 .page {
     align-items: center;
     margin-top: 720px;
- }
-
+}
 .font1 {
     font-size: 42px;
 }
-
 .font2 {
     font-size: 45px;
 }
-
 .font3 {
     font-size: 38px;
 }
 .content .landing .caption a {
     font-size: 36px;
 }
-
 .div.contactInfo {
     align-content: center;
 }
@@ -601,14 +541,12 @@ div.box {
 }
 }
 
-
 @media screen and (min-width: 1200px) {
 .content .landingpage .container1 .page {
     align-items: center;
     margin-top: 330px;
     margin-left: 23%;
- }
-
+}
 .font1 {
     font-size: 38px;
 }
@@ -663,6 +601,3 @@ div.box {
     padding: 5px;
 }
 }
-
-
-

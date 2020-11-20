@@ -6,7 +6,7 @@ A Web Portfolio project that will attract users in an instant with its user-frie
 ## UX
 This website project targets the users and employers attention on its minimalism yet clear, smooth and modern portfolio design.
 ### 1. Strategy
-The aim of this project is to give awareness to the user that a work portfolio can be modern in terms of images showing the best feature of yourself being you. Curriculums Vitae’s photo can have the best smile that u could ever have to show the employers the best version of you inside and outside of work environment. This project will draw attention to the user for the fast employment, keeping the UX simple and user-friendly and leading users to contact the employee directly through its attracting buttons. Its a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user.
+The aim of this project is to give awareness to the user that a work portfolio can be modern in terms of images showing the best feature of yourself being you. Curriculum Vitae’s photo can have the best smile that u could ever have to show the employers the best version of you inside and outside of work environment. This project will draw attention to the user for the fast employment, keeping the UX simple and user-friendly and leading users to contact the employee directly through its attracting buttons. Its a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user.
 
 ### 2. Scope
 A Minimal Viable Product (MVP) approach which provides users an absolute UX. It matched my current skill-set and focuses on getting in touch directly to the employee. I’ve added a basic animations to enhance the over all experience.
@@ -60,11 +60,11 @@ My solution is that I tried to code and understand how it functions.
 * I didn't have any experience in coding because I was in a Hotel and Tourism Industry which made me difficult to understand.
 My solution was to keep on coding, trial and error to see how everything functions in Web developer Industry.
 * Using gitpod was a struggle. I was trying to figure out how does it work especially when commiting. I didnt understand what does commit means 
-because English is not my Mother language. My so lution was that I attended webinars which it made me clear to understand the use of Gitpod. 
+because English is not my Mother language. My solution was that I attended webinars which it made me clear to understand the use of Gitpod. 
 * 3 background image for every pages which I wasn't knowledgeable that is not possible that made conflicts on my page.
 My solution was using 1 background image which is easy to design.
 * Text inside the Image. My solution was I asked the Slack community and tried to research that it should be inside the div.
-* Hamburger button doesn't show. I contacted the tutor support to resolve issue which the navbar button should be changed into dark.
+* Hamburger button doesn't show up. I contacted the tutor support to resolve issue which the navbar button should be changed into dark.
 * Alignment of the contact form. I have asked the Slack community but then I ended up by solving it myself by changing some elements and style them new.
 * Positioning of the social media links which i ended up using bootstrap to fix them at the bottom while the social media links on about me section since 
 it has a long content, I made its own element and added the same design which it worked.
@@ -89,8 +89,17 @@ it has a long content, I made its own element and added the same design which it
 * Tested CSS validation.
 
 ## DEPLOYMENT
-
-
+This project has been deployed on Github Pages with the following process:
+* The code was written on Gitpod an online IDE.
+* The code has been pushed to Github where and its stored in my repository.
+* Under the settings of the Github repository, scrolled down to Github pages section
+* The master branch was selected under source.
+* This publishes the project to Github Pages & display the site url once selected.
+* Deployed and development version are the same.
+* Through clone or download, the code can be run locally.
+* You can make this action by opening the repository, click on the green 'Code' button selecting clone or download.
+* The Clone option provides url that can be used on desktop IDE.
+* The Download ZIP option provides a link to download a ZIP file that can be unzipped on your local machine.
 
 ## CREDITS
 ### Contents
@@ -106,7 +115,6 @@ it has a long content, I made its own element and added the same design which it
 * https://unsplash.com/ -  Markus Spiske, Ales Nesetril, Gustas Barazaitis, Ali Marel, Derek Perez
 
 ## ACKNOWLEDGMENTS
-
 ### Arnold Kyeza 
 My mentor for listening and showing interest and addressing my technical problems. For motivating me when I am frustrated coding and telling me not to give up.
 ### Code Institute team 
