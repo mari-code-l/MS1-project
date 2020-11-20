@@ -322,6 +322,7 @@ img {
 @media screen and (min-width: 360px) { 
 .content .landingpage .container1 .page {
     align-items: center;
+    margin-top: 390px;
 }
 .font1 {
     font-size: 22px;
@@ -329,7 +330,6 @@ img {
 .font2 {
     font-size: 25px;
 }
-
 .font3 {
     font-size: 22px;
 }
@@ -373,7 +373,7 @@ div.box {
     margin-top: 2px;  
 }
 .btn.btn-default.btn-warning {
-    padding: 2px;
+    padding: 1px;
 }
 }
 
@@ -432,7 +432,7 @@ div.box {
 @media screen and (min-width: 768px) {
 .content .landingpage .container1 .page {
     align-items: center;
-    margin-top: 550px;
+    margin-top: 500px;
 }
 .font1 {
     font-size: 32px;
@@ -446,7 +446,6 @@ div.box {
 .content .landing .caption a {
     font-size: 28px;
 }
-
 .div.contactInfo {
     align-content: center;
 }
@@ -489,18 +488,15 @@ div.box {
 
 @media screen and (min-width: 992px) {
 .content .landingpage .container1 .page {
-    align-items: center;
-    margin-top: 720px;
- }
-
+    margin-left: 20%;
+    margin-top: 650px;
+}
 .font1 {
     font-size: 42px;
 }
-
 .font2 {
     font-size: 45px;
 }
-
 .font3 {
     font-size: 38px;
 }
@@ -548,13 +544,12 @@ div.box {
 }
 }
 
-
 @media screen and (min-width: 1200px) {
 .content .landingpage .container1 .page {
     align-items: center;
-    margin-top: 330px;
+    margin-top: 400px;
     margin-left: 23%;
- }
+}
 
 .font1 {
     font-size: 38px;
