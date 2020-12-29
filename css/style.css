@@ -101,6 +101,45 @@ body{
 
 /*-----------------ABOUT ME-----------------*/
 
+#about-me-image {
+  background-image: url("../images/computer.jpg"); 
+  border: 2px #fafafa solid;
+  height: 300px; 
+  width: 300;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about-me-image1 {
+  background-image: url("../images/matrix.jpg"); 
+  border: 2px #fafafa solid;
+  height: 300px; 
+  width: 300;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;   
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about-me-image2 {
+  background-image: url("../images/it.jpg"); 
+  border: 2px #fafafa solid;
+  height: 300px; 
+  width: 300;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;   
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .content {
      margin-top: 80px;
 }
@@ -112,7 +151,7 @@ body{
 }
 .content .box .title {  
     background: #000000;
-    margin-top: 20px;
+    background-position: center;
     width: 100%;
     justify-content: center;
     opacity: 0.8;
@@ -149,7 +188,7 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
-
+ 
 /*-----------------CONTACT-----------------*/
 
 .contact .content p {
