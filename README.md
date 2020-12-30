@@ -1,6 +1,11 @@
 # My Web Portfolio
 ## Milestone Project 1
 
+### WIREFRAME
+* [Home page](/workspace/MS1-project/images/wireframe/home.png)
+* [About me page](/workspace/MS1-project/images/wireframe/about-me.png)
+* [Contact page](/workspace/MS1-project/images/wireframe/contact.png)
+
 A Web Portfolio project that will attract users in an instant with its user-friendly functions  and with an over all experience.
 
 ## UX
@@ -126,16 +131,3 @@ For being patient tutoring me specially when I’m having difficulties and they 
 Webinars team - For keeping me knowledgable enough on every skills and languages. For their non-stop advices that helped me get through this project.
 #### Slack Community
 For answering my queries.
-
-
-### WIREFRAME 
-https://balsamiq.cloud/srqhp99/pxz52yg
-
-
-
-
-
-
-
-
-
