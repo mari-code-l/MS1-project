@@ -118,7 +118,12 @@ This project has been deployed on Github Pages with the following process:
 * https://www.youtube.com/watch?v=gggB0Nq5vBk - form ideas
 
 ### Media
-* https://unsplash.com/ -  Markus Spiske, Ales Nesetril, Gustas Barazaitis, Ali Marel, Derek Perez
+#### https://unsplash.com/ -  
+* [Markus Spiske](/workspace/MS1-project/images/matrix.jpg)
+* [Ales Nesetril](/workspace/MS1-project/images/computer.jpg) 
+* [Gustas Barazaitis](/workspace/MS1-project/images/it.jpg)
+* [Ali Marel](/workspace/MS1-project/images/smart1.jpg)
+* [Derek Perez](/workspace/MS1-project/images/CV.pdf) - CV Portrait
 
 ## ACKNOWLEDGMENTS
 ### Arnold Kyeza 
