@@ -353,22 +353,22 @@ body{
 @media screen and (min-width: 360px) { 
 .content .landingpage .container1 .page {
     align-items: center;
-    margin-top: 390px;
+    margin-top: 330px;
 }
 .font1 {
-    font-size: 22px;
+    font-size: 23px;
 }
 .font2 {
     font-size: 25px;
 }
 .font3 {
-    font-size: 22px;
+    font-size: 23px;
 }
 .content .landing .caption a {
     font-size: 18px;
 }
 .content .box {
-    padding: 50px 50px; 
+    padding: 40px 40px; 
 }
 .contact .container {
     display: flex;
@@ -404,7 +404,7 @@ div.box {
     margin-top: 2px;  
 }
 .btn.btn-default.btn-warning {
-    padding: 1px;
+    padding: 5px;
 }
 }
 
@@ -520,16 +520,16 @@ div.box {
 @media screen and (min-width: 992px) {
 .content .landingpage .container1 .page {
     margin-left: 20%;
-    margin-top: 650px;
+    margin-top: 700px;
 }
 .font1 {
-    font-size: 42px;
-}
-.font2 {
     font-size: 45px;
 }
+.font2 {
+    font-size: 50px;
+}
 .font3 {
-    font-size: 38px;
+    font-size: 45px;
 }
 .content .landing .caption a {
     font-size: 36px;
