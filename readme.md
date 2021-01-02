@@ -49,15 +49,21 @@ For Typography I have chosen 'Oswald', sans-serif for its neutral and understand
 * Contact form with text area and submit button which will allow users to type specific inquiries.
 
 ## TECHNOLOGIES USED
-* HTML
-* CSS
-* Bootstrap 
+* [HTML](https://developer.mozilla.org/de/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+* [Bootstrap](https://getbootstrap.com/)
+* [Jquery](https://jquery.com/)
+* [Github](https://github.com/)
+* [Gitpod](https://gitpod.io/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Balsamiq](https://balsamiq.com/)
 
 ### Code Validity 
-* HTML  - https://validator.w3.org/
-* CSS - https://validator.w3.org/
-* General - Chrome Devtools
-* Mobile responsivenes - Google Mobile-friendly test
+* [HTML Validator](https://validator.w3.org/)
+* [CSS Validator](https://validator.w3.org/)
+* [Chrome Developer tools](https://developers.google.com/web/tools/chrome-devtools)
+* [Google Mobile-friendly test](https://search.google.com/test/mobile-friendly)
 
 ## PROJECT BARRIERS AND SOLUTION
 * Language barrier when it comes to technical terms which I had to cope up with and let me behind with my lessons and coding. 
