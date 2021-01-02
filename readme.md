@@ -84,7 +84,7 @@ it has a long content, I made its own element and added the same design which it
 * Im not so familiar on Dev tools yet but still learning on the process.
 * Bugs in opening links in other tab. I fixed it by putting "target="_blank"" on every links.
 * Images stretched and pixelated in "About me" page. I fixed it by putting the images inside "div" then applied proper size, height, width, styles etc. in CSS.
-* Instead of Wireframe url in my read.me file, I did screenshots of wireframes, put them in Gitpod images folder to be clearly seen.
+* Instead of Wireframe url in my read me file, I did screenshots of wireframes, put them in Gitpod images folder to be clearly seen.
 * Mistakes on media queries has been corrected by adjusting the sizes.
 * Instead of putting the url images, I have wrote down the name of every images producers then put the code snippet beside to be clear.
 * Doubled "<head></head> in about me file. I have deleted the doubled one.
@@ -104,7 +104,7 @@ it has a long content, I made its own element and added the same design which it
 * Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.
 * Tested the contact form to ensure that the "Name, Email and Message" are required to fill up. 
 * Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address.
-* Tested the all the code for its responsive on mobile devices on Google Mobile-friendly test.
+* [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
 * Tested HTML validation.
 * Tested CSS validation.
 
