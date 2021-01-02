@@ -105,7 +105,7 @@ body{
   background-image: url("../images/computer.jpg"); 
   border: 2px #fafafa solid;
   height: 300px; 
-  width: 300;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -117,7 +117,7 @@ body{
   background-image: url("../images/matrix.jpg"); 
   border: 2px #fafafa solid;
   height: 300px; 
-  width: 300;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -129,7 +129,7 @@ body{
   background-image: url("../images/it.jpg"); 
   border: 2px #fafafa solid;
   height: 300px; 
-  width: 300;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
@@ -606,13 +606,12 @@ div.box {
 }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
 .content .landingpage .container1 .page {
     align-items: center;
     margin-top: 400px;
     margin-left: 23%;
 }
-
 .font1 {
     font-size: 38px;
 }
@@ -667,6 +666,3 @@ div.box {
     padding: 5px;
 }
 }
-
-
-
