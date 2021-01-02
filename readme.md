@@ -75,7 +75,13 @@ My solution was using 1 background image which is easy to design.
 it has a long content, I made its own element and added the same design which it worked.
 * Media queries was hard for me to understand even if I watch tutorials. At the end I tried fixing it myself by trial and error which it made me more understand.
 * Wrong divs which disaligned my content. I fixed it by using CSS and HTML validator.
-* Im not so familiar on Dev tools yet but stii learning on the process.
+* Im not so familiar on Dev tools yet but still learning on the process.
+* Bugs in opening links in other tab. I fixed it by putting "target="_blank"" on every links.
+* Images stretched and pixelated in "About me" page. I fixed it by putting the images inside "div" then applied proper size, height, width, styles etc. in CSS.
+* Instead of Wireframe url in my read.me file, I did screenshots of wireframes, put them in Gitpod images folder to be clearly seen.
+* Mistakes on media queries has been corrected by adjusting the sizes.
+* Instead of putting the url images, I have wrote down the name of every images producers then put the code snippet beside to be clear.
+* Doubled "<head></head> in about me file. I have deleted the doubled one.
 
 ## WORKSPACE & REPOSITORIES STORAGE 
 * https://github.com/
@@ -86,8 +92,8 @@ it has a long content, I made its own element and added the same design which it
 * Tested "Home" bar to ensure that it will be directed to each page and positioned properly.
 * Tested "About me" bar to ensure that it will be directed to each page and positioned properly.
 * Tested "Contact" bar to ensure that it will be directed to each page and positioned properly.
-* Tested the "Download CV" button to ensure that will open the CV when it is being clicked.
-* Tested the "Hire me" button to ensure that it will point to the "Contact Information".
+* Tested the "Download CV" in every page button to ensure that will open the CV when it is being clicked.
+* Tested the "Hire me" button in every pages to ensure that it will point to the "Contact Information".
 * Tested the social links in every pages to ensure that is being directed to the social media account.
 * Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.
 * Tested the contact form to ensure that the "Name, Email and Message" are required to fill up. 
