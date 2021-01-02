@@ -376,7 +376,7 @@ body{
 }
 .contact .content {
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .contactForm {
     width: 80%;
@@ -385,7 +385,7 @@ body{
     align-content: center;
 }
 div.box {
-    padding: 5px;
+    padding: 3px;
 }
 .contact .container .contactInfo .box {
     padding: 0px;
@@ -395,17 +395,48 @@ div.box {
     height: 30px;
 }
 .contactForm {
-    padding: 10px;
+    padding: 3px;
 }
 .contactForm form {
-    padding: 3px;
+    padding: 5px;
 }
 .contactForm .submit {
     margin-top: 2px;  
 }
 .btn.btn-default.btn-warning {
-    padding: 5px;
+    padding: 1px;
+    margin-top: 20px;
 }
+.contactForm .inputBox {
+    height: 60px;
+}
+.container .contactInfo {
+    padding: 0px;
+}
+.contact .content {
+    margin-top: 0px;
+}
+.contact .content p {
+    font-size: 25px;
+}
+.container .contactInfo .box .text h3{
+    font-size: 18px;
+}
+.contactForm form h2{
+    font-size: 18px;
+}
+.contactForm .inputBox span{
+    font-size: 18px;
+}
+.contactForm .inputBox input{
+    margin: 0;
+    padding: 0;
+}
+.contactForm .inputBox textarea{
+   height: 35px;
+}
+div.text p{
+    font-size: 15px;
 }
 
 @media screen and (min-width: 576px) { 
