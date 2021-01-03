@@ -113,11 +113,11 @@ it has a long content, I made its own element and added the same design which it
 * Instead of Wireframe url in my read me file, I did screenshots of wireframes, put them in Gitpod images folder to be clearly seen.
 * Mistakes on media queries has been corrected by adjusting the sizes.
 * Instead of putting the url images, I have wrote down the name of every images producers then put the code snippet beside to be clear.
-* Doubled "<head></head> in about me file. I have deleted the doubled one.
+* Doubled "head" in about me file. I have deleted the doubled one.
 
 ## WORKSPACE & REPOSITORIES STORAGE 
-* https://github.com/
-* https://gitpod.io/
+* [Github]https://github.com/
+* [Gitpod]https://gitpod.io/
 
 ## TESTING
 * As I enter the Website, I tested the Portfolio logo in every pages and make sure that it will point to its homepage.
@@ -131,8 +131,8 @@ it has a long content, I made its own element and added the same design which it
 * Tested the contact form to ensure that the "Name, Email and Message" are required to fill up. 
 * Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address.
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
-* Tested HTML validation.
-* Tested CSS validation.
+* [Tested HTML validation.]()
+* [Tested CSS validation.]()
 
 ## DEPLOYMENT
 This project has been deployed on Github Pages with the following process:
