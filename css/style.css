@@ -1,10 +1,9 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-</style>
+
 body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background: url("../images/smart1.jpg");
+    background: url(../images/smart1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
