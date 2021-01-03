@@ -1,26 +1,52 @@
 # My Web Portfolio
 ## Milestone Project 1
+#### Introduction
+Welcome to my first milestone project "My Web Portfolio".
+Last 2020, I have decided to enroll in a Full Stack Development course with Code Institute with hopes to change my career from hospitality Industry to a developer.
+A career change is a tough decision especially if you are starting from scratch. I've been living in Germany for four years now and I've been struggling which path to take since i moved out from my country
+because what I’ve studied in my country wasn't recognized by the German school system. Now here I am starting another path. 
+I believe that if you have faith in everything u do, you will be able to succeed!
 
-### WIREFRAME
-* [Home page](/workspace/MS1-project/images/wireframe/home.png)
-* [About me page](/workspace/MS1-project/images/wireframe/about-me.png)
-* [Contact page](/workspace/MS1-project/images/wireframe/contact.png)
+I have decided to make a Portfolio for my first milestone project because I believe that I will be needing it in the future when starting my career as a developer.
 
-A Web Portfolio project that will attract users in an instant with its user-friendly functions  and with an over all experience.
+Thank you for viewing my project and I hope u enjoy it.
 
+[View live site here](https://mari-code-l.github.io/MS1-project/)
 ## UX
-This website project targets the users and employers attention on its minimalism yet clear, smooth and modern portfolio design.
+This Web Portfolio project targets the users and employers attention on its minimalism yet clear, smooth and modern portfolio design.
+It has user-friendly functions and with an over all experience.
+
+Project planning has 5 planes:
+* Strategy Plane
+* Scope Plane
+* Structure Plane
+* Skeleton Plane
+* Surface Plane
+
 ### 1. Strategy
-The aim of this project is to give awareness to the user that a work portfolio can be modern in terms of images showing the best feature of yourself being you. Curriculum Vitae’s photo can have the best smile that u could ever have to show the employers the best version of you inside and outside of work environment. This project will draw attention to the user for the fast employment, keeping the UX simple and user-friendly and leading users to contact the employee directly through its attracting buttons. Its a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user.
+The aim of this project is to give awareness to the user that a work portfolio can be modern in terms of images showing the best feature of yourself being you. 
+Curriculum Vitae’s photo can have the best smile that u could ever have to show the employers the best version of you inside and outside of work environment. 
+This project will draw attention to the user for the fast employment, keeping the UX simple and user-friendly and leading users to contact the employee directly through its attracting buttons. 
+Its a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. 
+It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user.
 
 ### 2. Scope
 A Minimal Viable Product (MVP) approach which provides users an absolute UX. It matched my current skill-set and focuses on getting in touch directly to the employee. I’ve added a basic animations to enhance the over all experience.
 
 ### 3. Structure
-The structure of the project is focused on the main contact Information which are the buttons with a nice touch of colour contrast and quality imagery. It provides enough Information  which is short and clear. Social links are provided as well to get to know more the product or the employee.
+The structure of the project is focused on the main contact Information which are the buttons with a nice touch of colour contrast and quality imagery. It provides enough Information which is short and clear. 
+Social links are provided as well to get to know more the product or the employee.
 
 ### 4. Skeleton
-* Its skeleton is made up with wireframes. It has 3 pages:
+Below is a link to the draft of the wireframes:
+#### Wireframes 
+[Home page](/workspace/MS1-project/images/wireframe/home.png)
+
+[About me page](/workspace/MS1-project/images/wireframe/about-me.png)
+
+[Contact page](/workspace/MS1-project/images/wireframe/contact.png)
+
+* Its skeleton is made up with wireframes using Balsamiq. It has 3 pages:
 * Homepage - Landing text with word logo, navigation bar, hire me button and social media links.
 * About me - It consists of navigation bar as well as social links. Imagery to highlight the content.
 * Contact -  Navigation bar and social links are included as well. Contact form and Information for more details. 
