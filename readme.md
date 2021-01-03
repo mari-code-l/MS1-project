@@ -60,9 +60,9 @@ For Typography I have chosen 'Oswald', sans-serif for its neutral and understand
 ## USER STORIES
 * As a user, I will be able to navigate around the website.
 * As a user, I will be able to click one button directing to the contact Information.
-* I will be able to click the logo linking to its homepage.
-* I will be able to research on my mobile.
-* I will be able to connect to social media for more Information.
+* As a user, I will be able to click the logo linking to its homepage.
+* As a user, I will be able to research on my mobile.
+* As user, I will be able to connect to social media for more Information about the candidate.
 
 ## FEATURES
 * It is a HTML, CSS, and Bootstrap designed website.
@@ -125,14 +125,14 @@ it has a long content, I made its own element and added the same design which it
 * Tested "About me" bar to ensure that it will be directed to each page and positioned properly.
 * Tested "Contact" bar to ensure that it will be directed to each page and positioned properly.
 * Tested the "Download CV" in every page button to ensure that will open the CV when it is being clicked.
-* Tested the "Hire me" button in every pages to ensure that it will point to the "Contact Information".
+* Tested the "Hire me" button to ensure that it will point to the "Contact Information".
 * Tested the social links in every pages to ensure that is being directed to the social media account.
 * Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.
 * Tested the contact form to ensure that the "Name, Email and Message" are required to fill up. 
 * Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address.
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
-* [Tested HTML validation.]()
-* [Tested CSS validation.]()
+* [Validate index html.](/workspace/MS1-project/images/testing-img/index-validate.png)
+* [Validate CSS.](/workspace/MS1-project/images/testing-img/css-test1.png)
 
 ## DEPLOYMENT
 This project has been deployed on Github Pages with the following process:
