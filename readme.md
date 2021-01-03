@@ -87,7 +87,8 @@ For Typography I have chosen 'Oswald', sans-serif for its neutral and understand
 
 ### Code Validity 
 * [HTML Validator](https://validator.w3.org/)
-* [CSS Validator](https://validator.w3.org/)
+* [CSS Validator-W3](https://validator.w3.org/)
+* [CSS Validator-Jigsaw ](https://jigsaw.w3.org/css-validator/)
 * [Chrome Developer tools](https://developers.google.com/web/tools/chrome-devtools)
 * [Google Mobile-friendly test](https://search.google.com/test/mobile-friendly)
 
