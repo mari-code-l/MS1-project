@@ -27,15 +27,22 @@ Project planning has 5 planes:
 The aim of this project is to give awareness to the user that a work portfolio can be modern in terms of images showing the best feature of yourself being you. 
 Curriculum Vitae’s photo can have the best smile that u could ever have to show the employers the best version of you inside and outside of work environment. 
 This project will draw attention to the user for the fast employment, keeping the UX simple and user-friendly and leading users to contact the employee directly through its attracting buttons. 
-Its a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. 
-It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user.
+It is a Mobile-first approach designed site. The content is minimal yet it has complex and meaningful Information. It has easy reference to social media in every pages that gives the users complex Information of the employee. 
+It has a strong contrasting buttons on landing page which will direct the user to the specific goal of a user. As a developer I want to avoid user from feeling overwhelmed by the content of the Website.
 
 ### 2. Scope
 A Minimal Viable Product (MVP) approach which provides users an absolute UX. It matched my current skill-set and focuses on getting in touch directly to the employee. I’ve added a basic animations to enhance the over all experience.
 
 ### 3. Structure
-The structure of the project is focused on the main contact Information which are the buttons with a nice touch of colour contrast and quality imagery. It provides enough Information which is short and clear. 
-Social links are provided as well to get to know more the product or the employee.
+I am a fan of minilimalism, simple yet elegant concept which I am able to easily apply on this project. 
+A background image (woman with glasses) which explains the over all personality of the Portfolio owner. 
+An image which has a complex meaning of intelligence. 
+Primary colours that I have chosen that wont exaggerate the website look are "#fafafa and #000000" for its simplicity yet it gives clarity of the content. 
+To highlight the main focus, I used "#ff0909e5 and #ffc609e5."
+For Typography I have chosen 'Oswald' for its understandable look which will keep the user interested.
+
+The structure of the project is focused on the main contact Information which are the buttons with a nice touch of colour contrast. 
+It provides enough Information which is short and clear. Social links are provided as well in the footer to get to know more about the candidate..
 
 ### 4. Skeleton
 Below is a link to the draft of the wireframes:
@@ -53,16 +60,14 @@ Below is a link to the draft of the wireframes:
 * Download  CV button is to direct the users to print or to download the Curriculum Vitae for its convenience.
 
 ### 5. Surface
-I have decided on a simple yet elegant background image (woman with glasses) which has a complex meaning of intelligence.
-Primary colours that I have chosen are #fafafa and #ffc609e5 for its simplicity yet it gives clarity of the content. To highlight to main focus, I used #ff0909e5 and #ffc609e5. To hover the button i used #000000.
-For Typography I have chosen 'Oswald', sans-serif for its neutral and understandable look.
+
 	
 ## USER STORIES
-* As a user, I will be able to navigate around the website.
-* As a user, I will be able to click one button directing to the contact Information.
+* As a user, I will be able to navigate easily around the website.
+* As a user, I will be able to click a button directing to the contact Information.
 * As a user, I will be able to click the logo linking to its homepage.
 * As a user, I will be able to research on my mobile.
-* As user, I will be able to connect to social media for more Information about the candidate.
+* As user, I will be able to connect to social media for Information about the candidate.
 
 ## FEATURES
 * It is a HTML, CSS, and Bootstrap designed website.
@@ -88,7 +93,7 @@ For Typography I have chosen 'Oswald', sans-serif for its neutral and understand
 ### Code Validity 
 * [HTML Validator](https://validator.w3.org/)
 * [CSS Validator-W3](https://validator.w3.org/)
-* [CSS Validator-Jigsaw ](https://jigsaw.w3.org/css-validator/)
+* [CSS Validator-Jigsaw](https://jigsaw.w3.org/css-validator/)
 * [Chrome Developer tools](https://developers.google.com/web/tools/chrome-devtools)
 * [Google Mobile-friendly test](https://search.google.com/test/mobile-friendly)
 
@@ -134,6 +139,7 @@ it has a long content, I made its own element and added the same design which it
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
 * [Validate index html.](/workspace/MS1-project/images/testing-img/index-validate.png)
 * [Validate CSS.](/workspace/MS1-project/images/testing-img/css-test1.png)
+* Tested with Google Chrome Developer Tools for devices - (Laptop with HiDPI, Laptop with MDPI, iPad mini,iPhone 6,7,8, iPhone 6,7,8 Plus, iPhone X, iPad, iPad pro)
 
 ## DEPLOYMENT
 This project has been deployed on Github Pages with the following process:
