@@ -61,7 +61,16 @@ Below is a link to the draft of the wireframes:
 
 ### 5. Surface
 
-	
+Features presents:
+* Large background image to draw user's attention. It has black and white color for a minimalism look and to highlight
+the text color.
+* A text logo on the top-left of every pages which will redirect to homepage.
+* Navbar - Responsive, toggles to a hamburger button which suits for mobile devices. 
+It is top-fixed so that the user won't have to scroll back to top once reached the bottom of the page.
+* Footer has social links and it opens to a new tab to a relevant page.
+* Oswald fonts has been used for it's clean and classy look and not to exaggerate the website.
+* Images are all relevant to the content that will catch users attention.
+
 ## USER STORIES
 * As a user, I will be able to navigate easily around the website.
 * As a user, I will be able to click a button directing to the contact Information.
@@ -134,8 +143,8 @@ it has a long content, I made its own element and added the same design which it
 * Tested the "Hire me" button to ensure that it will point to the "Contact Information".
 * Tested the social links in every pages to ensure that is being directed to the social media account.
 * Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.
-* Tested the contact form to ensure that the "Name, Email and Message" are required to fill up. 
-* Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address.
+* Tested the contact form to ensure that the "Name and Email are required to fill up. 
+* [Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address."](/workspace/MS1-project/images/testing-img/email-verify.png)
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
 * [Validate index html.](/workspace/MS1-project/images/testing-img/index-validate.png)
 * [Validate CSS.](/workspace/MS1-project/images/testing-img/css-test1.png)
