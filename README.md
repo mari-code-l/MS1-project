@@ -131,16 +131,17 @@ it has a long content, I made its own element and added the same design which it
 * Doubled "head" in about me file. I have deleted the doubled one.
 
 ## WORKSPACE & REPOSITORIES STORAGE 
-* [Github]https://github.com/
-* [Gitpod]https://gitpod.io/
+* [Github](https://github.com/)
+* [Gitpod](https://gitpod.io/)
 
 ## TESTING
 * As I enter the Website, I tested the Portfolio logo in every pages and make sure that it will point to its homepage.
 * Tested "Home" bar to ensure that it will be directed to each page and positioned properly.
 * Tested "About me" bar to ensure that it will be directed to each page and positioned properly.
 * Tested "Contact" bar to ensure that it will be directed to each page and positioned properly.
-* Tested the "Download CV" in every page button to ensure that will open the CV when it is being clicked.
-* Tested the "Hire me" button to ensure that it will point to the "Contact Information".
+* Tested the "Download CV" in every page button to ensure that will open the CV when it is being clicked.-[screenshot1](/workspace/MS1-project/images/testing-images/download1.png)[screenshot2](/workspace/MS1-project/images/testing-images/download2.png)
+* Tested the "Hire me" button to ensure that it will point to the "Contact Information".-
+[screenshot1](/workspace/MS1-project/images/testing-images/hireme1.png) [screenshot2](/workspace/MS1-project/images/testing-images/hireme2.png)
 * [Tested the social links in every pages to ensure that is being directed to the social media account and to a new tab.](/workspace/MS1-project/images/testing-images/social-links.png)
 * [Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.](/workspace/MS1-project/images/testing-images/collapse.png)
 * [Tested the contact form to ensure that the "Name" box are required to fill up.](/workspace/MS1-project/images/testing-images/contactform-name.png)
