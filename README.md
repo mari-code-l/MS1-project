@@ -143,8 +143,9 @@ it has a long content, I made its own element and added the same design which it
 * Tested the "Hire me" button to ensure that it will point to the "Contact Information".
 * [Tested the social links in every pages to ensure that is being directed to the social media account and to a new tab.](/workspace/MS1-project/images/testing-images/social-links.png)
 * [Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.](/workspace/MS1-project/images/testing-images/collapse.png)
-* Tested the contact form to ensure that the "Name and Email are required to fill up. 
-* [Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address."](/workspace/MS1-project/images/testing-img/email-verify.png)
+* [Tested the contact form to ensure that the "Name" box are required to fill up.](/workspace/MS1-project/images/testing-images/contactform-name.png)
+* [Tested the contact form to ensure that the "Send Message" text area are required to fill up.](/workspace/MS1-project/images/testing-images/contactform-message.png)
+* [Tested the contact forme ro ensure that the "Email" box by not entering the proper email address will showing "please include an @ in the email address."](/workspace/MS1-project/images/testing-img/email-verify.png)
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
 * [Validate index html.](/workspace/MS1-project/images/testing-img/index-validate.png)
 * [Validate about me html.](/workspace/MS1-project/images/testing-images/aboutme-validate.png)
