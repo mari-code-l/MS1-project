@@ -141,12 +141,14 @@ it has a long content, I made its own element and added the same design which it
 * Tested "Contact" bar to ensure that it will be directed to each page and positioned properly.
 * Tested the "Download CV" in every page button to ensure that will open the CV when it is being clicked.
 * Tested the "Hire me" button to ensure that it will point to the "Contact Information".
-* Tested the social links in every pages to ensure that is being directed to the social media account.
-* Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.
+* [Tested the social links in every pages to ensure that is being directed to the social media account and to a new tab.](/workspace/MS1-project/images/testing-images/social-links.png)
+* [Tested navigation menu to ensure that it will collapse and will show the hamburger button when it's on mobile size.](/workspace/MS1-project/images/testing-images/collapse.png)
 * Tested the contact form to ensure that the "Name and Email are required to fill up. 
 * [Tested "Email" button by not entering the proper email address by showing "please include an @ in the email address."](/workspace/MS1-project/images/testing-img/email-verify.png)
 * [Tested all the code for its responsive on mobile devices on Google Mobile-friendly test.](/workspace/MS1-project/images/testing-img/mobile-friendly.png)
 * [Validate index html.](/workspace/MS1-project/images/testing-img/index-validate.png)
+* [Validate about me html.](/workspace/MS1-project/images/testing-images/aboutme-validate.png)
+* [Validate contact html.](/workspace/MS1-project/images/testing-images/contact-validate.png)
 * [Validate CSS.](/workspace/MS1-project/images/testing-img/css-test1.png)
 * [Tested with Google Chrome Developer Tools for devices - (Laptop with HiDPI, Laptop with MDPI, iPad mini,iPhone 6,7,8, iPhone 6,7,8 Plus, iPhone X, iPad, iPad pro)](/workspace/MS1-project/images/testing-images/hamburger-btn.png)
 
