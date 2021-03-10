@@ -89,8 +89,6 @@ h3.font3 {
 .content .container1 .page .landing .caption a {
     padding: 3px;
     background-color: #ff0909e5;
-    border-color: #fafafa;
-    border-width: 1px;
     font-weight: 200;
     font-size: 20px;
     letter-spacing: 1px;
@@ -196,9 +194,9 @@ a.logo{
 /*-----------------CONTACT-----------------*/
 
 .contact .content p {
-    font-weight: 500;
+    font-weight: 300;
     color: #fafafa;
-    font-size: 30px;
+    font-size: 15px;
     opacity: 0.8;
     padding-top: 50px;
     padding-left: 50px;
