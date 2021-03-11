@@ -69,19 +69,19 @@ body{
      opacity: 0.8;      
 }    
 h2.font1 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 200;
     color: #ffc609e5;
     padding: 2px 0;
 }
 h4.font2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 200;
     color: #ffc609e5;
     padding: 2px 0;
 }
 h3.font3 {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 200;
     color:#ffc609e5;
     padding: 2px 0;
@@ -92,6 +92,7 @@ h3.font3 {
     font-weight: 200;
     font-size: 20px;
     letter-spacing: 1px;
+    margin-left: 100px;
 }
 .content .container1 .page .landing .caption a:hover {
     color: #000000;
@@ -99,6 +100,13 @@ h3.font3 {
     background-color: #ffc609e5;
     transition: 0.3s;
     border-color: #000000;
+}
+hr{
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-color: #fafafa;
 }
 
 /*-----------------ABOUT ME-----------------*/
@@ -318,7 +326,7 @@ a.logo{
     color: #fafafa;
 }
 
-/*-----------------FOOTER about me-----------------*/
+/*-----------------FOOTER ABOUT ME-----------------*/
 
 .social-menu ul {
     display: flex;  
